@@ -1,5 +1,5 @@
 
-# Creating a CIS Hardened AWS AMI
+## Creating a CIS Hardened AWS AMI
 
 #### Build the AMI
 - Git clone the reposiory
@@ -11,4 +11,5 @@ packer build  -var-file=variables.json cis-ami.pkr.hcl
 ```
 
 #### Reference
-Refer to the documentation [Blog Post](https://bmacharia.com/creating-a-cis-level-1-hardened-aws-ami)
+> Refer for more instructions [Blog Post](https://bmacharia.com/creating-a-cis-level-1-hardened-aws-ami)
+> Hardening Sript documentation [Documentation](https://github.com/thilinaba/aws-cis-ami/blob/dev/README.md)
